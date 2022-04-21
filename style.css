@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+html{
+	font-size: 10px;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+    background-color: #ffffff;
+}
+
+/*nav section*/
+ #nav{
+  position: relative;
+ }
+ .nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 1rem;
+ }
+  
+  .navlist .navul{
+  	display: flex;
+  	justify-content: center;
+  	list-style: none;
+  	margin-right: 10rem;
+  }
+
+  .navlist .navitem{
+  	margin-right: 3rem;
+  	font-size: 1.6rem;
+  }
+
+  .navlogo{
+  	cursor: pointer;
+  	margin-left: 5rem;
+  	font-size: 2rem;
+  }
+
+  .navlogo h1{
+  	color: white;
+  	 color: #444;
+  
+  }
+
+  .navlist .navlink{
+  	color: white;
+  	 color: #444;
+ 
+  	text-decoration: none;
+  }
+
+ 
+/*end nav section*/
+
+/*main section*/
+#main{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main{
+	width: 110rem;
+	height: 60rem;
+	background-color: #f2f2f2;
+	margin-top: 6rem;
+	 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+/*main top division*/
+.maintop{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color:  #e6e6e6;
+}
+
+.mtop{
+   background-color: white;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
+.topr{
+  width: 60%;
+  height: 80%;
+}
+
+/*top left division*/
+.topl{
+  width: 40%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /*border-radius: 50%;*/
+  /*align-items: ;*/
+}
+
+.toplimage{
+  margin-top: 1rem;
+  width: 48%;
+  height: 40%;
+  border: 2px solid #e6e6e6;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  overflow: hidden;
+ /* box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);*/
+}
+
+.toplimage img{
+  width: 180%;
+  height: 196%;
+  margin-left: 0.5rem;
+  filter: drop-shadow(5px 5px 10px #222);
+  margin-top: -5rem;
+}
+
+.toplp{
+  width: 100%;
+  height: 50%;
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .toplp .toplname{
+  font-size: 2.5rem;
+  font-family: 'Bebas Neue', cursive;
+   color: #007399;
+   font-weight: 800;
+   letter-spacing: 0.2rem;
+ }
+
+ .toplloc,.toplporttop{
+  display: flex;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+ }
+
+ .toplloc p{
+  margin-left: 0.6rem;
+ }
+
+.toplport{
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 1rem;
+}
+
+.toplport{
+  /*margin-left: -12rem;*/
+}
+
+ .toplport img{
+  width: 30px;
+  height: 30px;
+ }
+
+ .toplporttop p{
+  margin-left: 0.3rem;
+  font-size: 2rem;
+  font-weight: 800;
+ }
+
+ .toplportskill{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+ }
+
+ .toplportskill img{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  padding: 2px;
+  border-radius: 0.5rem;
+   box-shadow:  0 10px 8px rgba(0,0,0,0.22);
+   animation: Skills 1s ease;
+   animation-delay: 0.1s;
+ }
+
+ .seemorel{
+  display: flex;
+  align-items: center;
+  margin-left: 15rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  /*transition: 1s ease;*/
+  font-family: 'Raleway', sans-serif;
+ }
+
+ 
+ .seemorel img{
+  margin-left: -1rem;
+ }
+
+ .seemorel:hover img{
+   filter: drop-shadow(5px 5px 10px #222);
+ }
+
+ .seemorel:hover{
+  text-decoration: underline; 
+ }
+  
+
+
+
+/*end top left division*/
+
+/*top right division*/
+.topr{
+  display: flex;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.topr h3{
+  font-size:  4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: 'Gideon Roman', cursive;
+}
+
+.topabout p{
+  width: 50rem;
+font-family: 'Raleway', sans-serif;
+/*font-family: 'Dancing Script', cursive;*/
+ /*font-family: 'Bebas Neue', cursive;*/
+ font-size: 1.7rem;
+ letter-spacing: 0.3px;
+ line-height: 2rem;
+}
+
+/*seemore*/
+.seemorer{
+  width: 58rem;
+  border: 2px solid #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 1rem;
+
+}
+
+.seemorer p{
+ font-size: 1.2rem;
+}
+
+.seemorer img{
+  width: 3rem;
+}
+.seeb{
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  align-items: center;
+  margin-left: 45rem;
+  cursor: pointer;
+}
+
+.seeb:hover img {
+   filter: drop-shadow(5px 5px 10px #222);
+}
+
+.topcont{
+  margin-top: 3rem;
+}
+
+.topcont h2{
+  font-family: 'Raleway', sans-serif;
+}
+
+.conta{
+  width: 20rem;
+  padding: 5rem;
+  background-color: #e6e6e6;
+  /*background-color: white;*/
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+   box-shadow:  0 10px 8px rgba(0,0,0,0.22);
+}
+
+.conta p{
+  width: 20rem;
+ font-size: 1.2rem;
+ margin-top: 2.4rem;
+ text-decoration: none;
+ font-family: 'Raleway', sans-serif;
+ letter-spacing: 0.2rem;
+ margin-left: 0.4rem;
+}
+
+.conta h2{
+   margin-left: 0.5rem;
+}
+.contahead{
+  margin-top: -2rem;
+}
+
+.conta a{
+  width: 100%;
+  color: black;
+  background-color: white;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+   box-shadow:  0 10px 8px rgba(0,0,0,0.22);
+   text-decoration: none;
+}
+
+.email p{
+  margin-left: 1rem;
+}
+
+.phone,.social{
+   margin-left: 1.5rem;
+}
+
+
+.conta img{
+  width: 24px;
+}
+
+.contdiv{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.contahead{
+  display: flex;
+  align-items: center;
+}
+
+/*contlink*/
+.contalink{
+  display: flex;
+  margin-top: 1.4rem;
+}
+
+.contalink a{
+  margin-left: 1rem;
+  padding: 0.2rem;
+}
+
+.contalink img{
+  width: 28px;
+}
+/*end contlink*/
+
+/*end top right division*/
+
+/*end top main division*/
+
+
+
+/*end main section*/
+
+/*animation*/
+@keyframes Skills{
+  0%{
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+
+/*end animation*/
